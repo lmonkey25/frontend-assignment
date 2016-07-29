@@ -1,5 +1,35 @@
-.duck {
-  display: block;
-  width: 120px;
-  margin: 1.5rem auto;
+.clear{
+	clear: both;
+}
+
+.leftsidebar{
+	float: left;
+	padding: 20px;	
+	display: block;
+}
+
+.point{
+	margin-right: 20px;
+	border: 1px solid white;
+}
+
+.selectedPoint{
+	border: 1px solid red;
+}
+
+.mainContent{
+	float: left;
+	padding: 20px;
+	display: block;	
+}
+
+.pane{
+	width: 440px;
+	height: 440px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+
+.selectedPane{
+	cursor: url(../assets/oval.png), auto;
 }
